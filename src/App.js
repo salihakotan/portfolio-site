@@ -4,6 +4,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home";
 import AboutMe from "./pages/AboutMe";
 import Blog from "./pages/Blog";
+import { Container } from "@chakra-ui/react";
 
 
 function App() {

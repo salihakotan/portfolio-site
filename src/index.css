@@ -13,15 +13,41 @@ code {
 }
 
 .header{
-
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color:  rgb(255, 138, 193);
 }
 
-.menu{
 
+
+.menu li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  color:rgb(42, 42, 42);
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
+  border: 3px solid rgb(255, 97, 171);
 }
+
+.menu li:hover{
+  background-color: rgb(171, 65, 114);
+  color: white;
+}
+
 .footer{
-
+  background-color: rgb(171, 65, 114);
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
 }
 .pageContent{
-  
+padding: 40px;
+}
+
+.App{
+  width: 80%;
+  margin: auto;
 }
